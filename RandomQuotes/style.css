@@ -1,0 +1,46 @@
+body {
+  background-color: #FFD90F;}
+
+h2 {
+  background-color: #4F76DF;
+  width: 100%;
+	margin: 5px;
+  color: #FFD90F;
+  padding: 25px;
+	font-weight: bold;
+  font-family: 'Rock Salt';
+	border-radius: 5px;}
+
+.quote {
+	background-color: white;
+	width: 50%;
+	margin: 15px auto;
+	min-height: 300px;
+	position: relative;
+	border-radius: 15px;
+	border: 5px solid #000;
+	box-shadow: 2px 2px #000;}
+
+.quote .message {
+	width: 95%;	
+	font-size: 1.5em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: left;}
+
+.char {
+	font-size: .8em;
+	font-style: italic;
+	text-align: left;}
+
+.col-xs-12 {
+	margin: 10px auto;}
+button:hover{
+		box-shadow: 2px 2px rgba(0,0,0,.7);}
+
+.quotes img {
+	float: left;
+	max-height: 150px;
+	padding-right: 15px;}
